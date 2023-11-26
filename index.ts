@@ -4,7 +4,7 @@ require("dotenv").config();
 import * as cors from "cors";
 import * as express from "express";
 
-import RoutesWrapper from "./src/routes";
+import RoutesWrapper from "./src/application/routes";
 //import log4js = require("log4js");
 
 import { NextFunction, Request, Response } from "express";
